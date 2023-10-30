@@ -1,6 +1,7 @@
 @calculator
 Feature: Calculator Functionality
 
+  @calculate
   Scenario Outline: Calculating two numbers
     Given I have entered the number <number> into the calculator
     When I press the <op> button
